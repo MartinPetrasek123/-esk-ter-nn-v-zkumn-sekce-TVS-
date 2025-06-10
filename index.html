@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ČTVS – Expediční deník</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <h1>ČTVS – Expediční deník</h1>
+  <form id="form">
+    <input type="text" id="lokalita" placeholder="Název lokality" required />
+    <input type="text" id="gps" placeholder="GPS souřadnice" required />
+    <textarea id="poznamka" placeholder="Poznámka"></textarea>
+    <input type="file" id="fotka" />
+    <button type="submit">Přidat záznam</button>
+  </form>
+  <div id="vystup"></div>
+  <script src="script.js"></script>
+</body>
+</html>

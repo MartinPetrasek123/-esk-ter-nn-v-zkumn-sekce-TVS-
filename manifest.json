@@ -1,0 +1,20 @@
+{
+  "name": "ČTVS – Expediční deník",
+  "short_name": "ČTVS",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#111111",
+  "description": "Mobilní aplikace pro zápis lokalit, GPS a poznámek",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
